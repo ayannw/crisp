@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./src/",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["./src/"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "crisp",
+  "version": "1.0.0",
+  "description": "programming language.",
+  "main": "dist/crisp.js",
+  "repository": "https://github.com/ayannw/crisp.git",
+  "author": "ayannw <ayanispro420@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -b . -W",
+    "lint": "prettier . -w"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.16"
+  }
+}
