@@ -1,4 +1,5 @@
-class InputStream {
+export class InputStream {
+
   public pos: number;
   public line: number;
   public col: number;
@@ -28,9 +29,3 @@ class InputStream {
     throw new Error(msg + " (" + this.line + ":" + this.col + ")");
   }
 }
-
-const inputStream = (input: string) => {
-  return new InputStream(input);
-};
-
-export default inputStream;
